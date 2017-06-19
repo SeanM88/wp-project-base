@@ -1,0 +1,3 @@
+# .gitkeep files are merely placeholders for empty directories.
+
+# As Git does not track empty directories by default, .gitkeep files are a common convention (not an actual Git feature) for including such directories.

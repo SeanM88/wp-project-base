@@ -1,0 +1,86 @@
+# --------------------------------------------------------
+# .gitignore for "Site Name Here"
+#
+# This file is tailored for a WordPress project
+# using the default directory structure.
+# --------------------------------------------------------
+
+# ignore all files starting with .
+.*
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore everything in the root except WHITELIST exceptions.
+/*
+
+# WHITELIST BEGIN --------------------------------------------------
+# Include these directories, files, and filetypes:
+
+# directory exceptions
+!wp-content/
+
+# .filetype exceptions (i.e. do NOT ignore these)
+!.gitignore
+!.editorconfig
+!readme.md
+
+# END WHITELIST -----------------------------------------------------
+
+# ignore everything in the "wp-content" directory, except WHITELIST themes, plugins, and mu-plugin:
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/mu-plugins/
+wp-content/mu-plugins/*
+
+# WHITELIST BEGIN --------------------------------------------------
+# Include these themes, plugins, and mu-plugins:
+
+# THEMES:
+#!wp-content/themes/example-theme/
+
+# PLUGINS:
+#!wp-content/plugins/example-plugin/
+
+# MU-PLUGINS:
+#!wp-content/mu-plugins/example-mu-plugin/
+
+# END WHITELIST -----------------------------------------------------
+
+# include .gitkeep files for tracking empty directories
+!.gitkeep
