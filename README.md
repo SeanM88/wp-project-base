@@ -1,6 +1,6 @@
-# wp-project-base
+# wp-site-base
 
-Quick boilerplate WordPress site directory for use with Varying Vagrant Vagrants local environments, although could easily be used in any new WordPress project where you want to track an actual WordPress website and optionally use Git for deployment.
+Quick boilerplate WordPress site directory for use with **Varying Vagrant Vagrants** local environments, although could easily be used in any new WordPress project where you want to track an actual WordPress website and optionally use Git for deployment.
 
 This Git repo begins at the same level as the actual WordPress site directory, meaning the same folder that `wp-config.php`, `wp-content` directory, etc. are usually located.
 
