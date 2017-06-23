@@ -24,9 +24,19 @@ Therefore, directions here pertain to using this repo in combination with [VVV 2
 
 ### Install
 
-@TODO
+1. Clone this repo into a local directory on your computer, replacing "my-site-name" with your own site's.
+`git clone https://github.com/SeanM88/wp-site-base.git my-site-name`
+
+2. Run the following command (again replacing "my-site-name" with your own) to move to the newly created site directory and remove the existing .git subfolder — this tracks **wp-site-base**, we want to track our site in it's own repo.
+`cd my-site-name && rm -Rf .git`
 
 ### Configuration
 
-@TODO
+We now have a fresh and clean site directory to use with **wp-vvv2-make-site** and get started developing our site locally.  Before we can actually use it though we need to add our site's theme and any necessary plugins.
+
+1. Copy your site's theme and required plugins into the respective `/themes/` and `/plugins/` directory inside `/wp-content/`
+
+2. Open the `.gitignore` file and whitelist all the theme and plugin directorys you just added, using the Git [negate pattern prefix](https://git-scm.com/docs/gitignore#_pattern_format). 
+
+For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
 
