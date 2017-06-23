@@ -24,5 +24,9 @@ Therefore, directions here pertain to using this repo in combination with [VVV 2
 
 ### Install
 
-1. 
+@TODO
+
+### Configuration
+
+@TODO
 
