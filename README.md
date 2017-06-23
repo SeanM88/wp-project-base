@@ -1,8 +1,10 @@
 # wp-site-base
 
-Quick boilerplate WordPress site directory for use with **Varying Vagrant Vagrants** local environments, although could easily be used in any new WordPress project where you want to track an actual WordPress website and optionally use Git for deployment.
+Boilerplate WordPress site directory for use with **Varying Vagrant Vagrants** local environments, although could easily be used in any new WordPress project where you want to track an actual WordPress website and optionally use Git for deployment.
 
-This Git repo begins at the same level as the actual WordPress site directory, meaning the same folder that `wp-config.php`, `wp-content` directory, etc. are usually located.
+This Git repo begins at the same level as the actual WordPress site directory, meaning the same folder that `wp-config.php`, `wp-content` directory, etc. are usually located.  
+
+By default, it is set up to only track specific themes and plugins critical to site functionality & display by whitelisting their directories in the provided `.gitignore` file, although other folders & files can be whitelisted as desired, it is usually best practice to only track especially relevant files.
 
 Note: the Git repo and actual directory name do not need to match; this is worth mentioning because this directory is usually named something like `public_html` or `htdocs` on most webservers and requires extra unnessary server configuration to change, so its best left as is.
 
