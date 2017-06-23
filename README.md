@@ -37,5 +37,16 @@ We now have a fresh and clean site directory to use with **wp-vvv2-make-site** a
 1. Copy your site's theme and required plugins into the respective `/themes/` and `/plugins/` directory inside `/wp-content/`
 
 2. Open the `.gitignore` file and whitelist all the theme and plugin directorys you just added, using the Git [negate pattern prefix](https://git-scm.com/docs/gitignore#_pattern_format).  
-For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
+Theme example: `!wp-content/themes/my-site-theme/`  Plugin example: `!wp-content/plugins/my-plugin/`
 
+3. Initialize a new Git repo and optional initial commit message:  `git init -m "Initial commit of my-site-name"`
+
+4. Add all files to be tracked and commit:  `git add . &$ git commit -m "Track site files"`
+
+5. Using a Git hosting service like GitHub or Bitbucket, create a new empty repo and import your site's newly created Git repo.
+
+6. That's it! Copy the repo's URL and you're ready to automatically import your's repo with the **wp-vvv2-make-site** site wizard.
+
+## Next Steps
+
+See the official **wp-vvv2-make-site** docs for more help with setting up a working local copy of WordPress with your site.
