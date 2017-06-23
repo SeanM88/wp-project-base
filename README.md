@@ -49,4 +49,4 @@ Theme example: `!wp-content/themes/my-site-theme/`  Plugin example: `!wp-content
 
 ## Next Steps
 
-See the official **wp-vvv2-make-site** docs for more help with setting up a working local copy of WordPress with your site.
+See the official [**wp-vvv2-make-site** docs](https://github.com/SeanM88/wp-vvv2-make-site/blob/master/README.md) for more help with setting up a working local copy of WordPress with your site.
