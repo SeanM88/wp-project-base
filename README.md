@@ -18,9 +18,9 @@ Therefore, directions here pertain to using this repo in combination with [VVV 2
 
 ### Prerequisites
 
-* [**VVV 2.0**](https://github.com/Varying-Vagrant-Vagrants/VVV)
-* [Vagrant::Hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) - Vagrant plugin for auto-updating system's hosts file.
-* [**wp-vvv2-make-site**](https://github.com/SeanM88/wp-vvv2-make-site) - Git repo for auto-site setup in `vvv-custom.yml`
+- [**VVV 2.0**](https://github.com/Varying-Vagrant-Vagrants/VVV)
+- [Vagrant::Hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) - Vagrant plugin for auto-updating system's hosts file.
+- [**wp-vvv2-make-site**](https://github.com/SeanM88/wp-vvv2-make-site) - Git repo for auto-site setup in `vvv-custom.yml`
 
 ### Install
 
@@ -36,7 +36,6 @@ We now have a fresh and clean site directory to use with **wp-vvv2-make-site** a
 
 1. Copy your site's theme and required plugins into the respective `/themes/` and `/plugins/` directory inside `/wp-content/`
 
-2. Open the `.gitignore` file and whitelist all the theme and plugin directorys you just added, using the Git [negate pattern prefix](https://git-scm.com/docs/gitignore#_pattern_format). 
-
-For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
+2. Open the `.gitignore` file and whitelist all the theme and plugin directorys you just added, using the Git [negate pattern prefix](https://git-scm.com/docs/gitignore#_pattern_format).  
+   For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
 
