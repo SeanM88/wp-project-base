@@ -37,5 +37,5 @@ We now have a fresh and clean site directory to use with **wp-vvv2-make-site** a
 1. Copy your site's theme and required plugins into the respective `/themes/` and `/plugins/` directory inside `/wp-content/`
 
 2. Open the `.gitignore` file and whitelist all the theme and plugin directorys you just added, using the Git [negate pattern prefix](https://git-scm.com/docs/gitignore#_pattern_format).  
-   For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
+For example: `!wp-content/themes/my-site-theme/` or `!wp-content/plugins/my-plugin/`
 
