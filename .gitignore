@@ -47,10 +47,10 @@ Thumbs.db
 /*
 
 # WHITELIST BEGIN --------------------------------------------------
-# Include these directories, files, and filetypes:
+# Include these directories & files:
 
-# directory exceptions
 !wp-content/
+!site-settings.md
 
 # .filetype exceptions (i.e. do NOT ignore these)
 !.gitignore
