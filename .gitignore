@@ -53,6 +53,7 @@ Thumbs.db
 !db-dumps/
 !db-dumps/*.sql
 !site-settings.md
+!wp-cli.local.yml
 
 # .filetype exceptions (i.e. do NOT ignore these)
 !.gitignore
