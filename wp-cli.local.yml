@@ -1,2 +1,4 @@
+path: public_html
+
 skip-plugins:
  - plugin-name
